@@ -3,7 +3,7 @@
 * What is this?
 This repository if for classifying videos/sequences containing martial arts, and classifying them. This is written in Python 3.
 
-Currently, I use a dataset based on the videos from the 2012 London Olympics and the 2014 Nanjing Youth Olympics. The processed file containing the classifiers and the rest is present in =MA.pkl= 
+Currently, I use a dataset based on the videos from the 2012 London Olympics and the 2014 Nanjing Youth Olympics. The processed file containing the classifiers and the rest is present in =MA.pkl=. 
 
 Note: Regarding STIP, to work correctly with the current OpenCV, a workaround has to be made to link the correct libs.
 * Installing
