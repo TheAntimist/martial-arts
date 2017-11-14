@@ -1,0 +1,22 @@
+#+TITLE: Martial Arts Detection
+
+* What is this?
+This repository if for classifying videos/sequences containing martial arts, and classifying them. This is written in Python 3.
+
+Currently, I use a dataset based on the videos from the 2012 
+
+Note: Regarding STIP, to work correctly with the current OpenCV, a workaround has to be made to link the correct libs.
+* Installing
+This module uses scikit-learn, which can be installed by either 
+: pip install -r requirements.txt
+or 
+: pip install sklearn
+* Executing
+For now, to execute
+: python3 classify.py
+* Files
+Most of the main code for the dataset preprocessing is a part of =MartialArts.py=, this is then called by =classify.py= to load the dataset and run it.
+
+If the code needs to actually need to calculate the STIP's you need the STIP executable for linux from [[https://web.archive.org/web/20141008104016/http://www.di.ens.fr/~laptev/download/stip-2.0-linux.zip][here.]]
+
+The code to allow parallelization of the STIP is through python =multiproc= library, it can be found in =ParallelSTIP.py=
